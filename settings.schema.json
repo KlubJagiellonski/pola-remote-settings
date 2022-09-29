@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "is_photo_in_report_enabled": {
+      "type": "boolean"
+    },
+    "button_after_first_scan": {
+      "$ref": "#/definitions/Button"
+    }
+  },
+  "required": ["is_photo_in_report_enabled"],
+  "definitions": {
+    "Button": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["type_white", "type_grey"]
+        }
+      },
+      "required": ["url", "title", "type"]
+    }
+  }
+}

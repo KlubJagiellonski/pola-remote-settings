@@ -1,0 +1,21 @@
+{
+  "name": "pola-remote-settings-tests",
+  "repository": "KlubJagiellonski/pola-remote-settings",
+  "version": "1.0.0",
+  "description": "pola-remote-settings-tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run validate-settings",
+    "validate-settings": "./validate-json.sh settings.schema.json 'settings/*.json'",
+    "pretify": "./node_modules/prettier/bin-prettier.js --config ./prettier --config ./.prettierrc --write ."
+  },
+  "author": "KlubJagiellonski",
+  "license": "MIT",
+  "dependencies": {
+    "ajv-cli": "^3.1.0",
+    "jsonschema": "1.2.4"
+  },
+  "devDependencies": {
+    "prettier": "2.4.1"
+  }
+}

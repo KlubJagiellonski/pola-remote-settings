@@ -1,0 +1,8 @@
+{
+  "is_photo_in_report_enabled": false,
+  "button_after_first_scan": {
+    "url": "https://klubjagiellonski.pl/zbiorka/wspieraj-aplikacje-pola/",
+    "title": "Wspieraj aplikację Pola",
+    "type": "type_white"
+  }
+}
