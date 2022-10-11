@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "ajv-cli": "^5.0.0",
-    "jsonschema": "1.2.4"
+    "jsonschema": "1.4.1"
   },
   "devDependencies": {
     "prettier": "2.7.1"
