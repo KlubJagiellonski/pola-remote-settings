@@ -12,7 +12,7 @@
   "author": "KlubJagiellonski",
   "license": "MIT",
   "dependencies": {
-    "ajv-cli": "^3.1.0",
+    "ajv-cli": "^5.0.0",
     "jsonschema": "1.2.4"
   },
   "devDependencies": {
