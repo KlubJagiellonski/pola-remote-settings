@@ -16,6 +16,6 @@
     "jsonschema": "1.4.1"
   },
   "devDependencies": {
-    "prettier": "2.7.1"
+    "prettier": "2.8.3"
   }
 }
